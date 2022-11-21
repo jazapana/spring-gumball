@@ -67,3 +67,13 @@ After commiting the change, a new workflow had begun, called "2.3":
 <img width="1440" alt="Screen Shot 2022-11-20 at 7 12 25 PM" src="https://user-images.githubusercontent.com/89716705/202976239-6aaf4e50-950c-4d28-aea5-b5fe1ee2554f.png">
 <img width="1440" alt="Screen Shot 2022-11-20 at 7 12 30 PM" src="https://user-images.githubusercontent.com/89716705/202976277-9fe7f029-b94d-4229-b633-8d57650a2e61.png">
 <img width="1440" alt="Screen Shot 2022-11-20 at 7 12 47 PM" src="https://user-images.githubusercontent.com/89716705/202976368-e2bbdcd9-adda-4ff6-a737-1630975e1c96.png">
+After the workflow "2.3" was completed, the workload "spring-gumball-deployment" and the service "spring-gumball-service" were deployed to my GKE Cluster:
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 16 21 PM" src="https://user-images.githubusercontent.com/89716705/202977046-f230a976-4228-41bb-abc6-679b9929c388.png">
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 16 34 PM" src="https://user-images.githubusercontent.com/89716705/202977083-e38a256d-7553-49ad-ae02-9d28f9d6ae8b.png">
+Then I created a Kubernetes Ingress called "spring-gumball-lb" of type "External HTTP/S load balancer":
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 28 14 PM" src="https://user-images.githubusercontent.com/89716705/202977535-cb29237d-c65b-42a3-839e-84fc3a14120f.png">
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 35 42 PM" src="https://user-images.githubusercontent.com/89716705/202977568-ffac7fc1-264c-4f60-99d3-c1f389902b09.png">
+When I clicked on the Frontends link from the Ingress, I was taken to the Gumball Machine App screen:
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 37 16 PM" src="https://user-images.githubusercontent.com/89716705/202978108-e31ccb81-cdc0-48b2-a1a4-eba597674f91.png">
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 37 24 PM" src="https://user-images.githubusercontent.com/89716705/202978126-d19b4061-6217-408f-9ad7-c3595fbbb283.png">
+<img width="1440" alt="Screen Shot 2022-11-20 at 7 39 28 PM" src="https://user-images.githubusercontent.com/89716705/202978149-375a996b-746c-4279-9f16-f1f35bf0c983.png">
